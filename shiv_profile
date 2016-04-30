@@ -1,0 +1,37 @@
+export PS1="\n\[\033[0;94m\]\h:\w/ >> \[\033[0m\]"
+
+
+alias spacer="defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}';killall Dock;"
+
+
+alias ga='git add .'
+alias gs='git status'
+alias gst='gs'
+alias gu='git pull'
+alias gpl='git pull'
+alias gp='git push'
+alias gdf='git diff'
+alias gd='git diff'
+alias gc='git commit $1' 
+alias gc='git commit -a -m '
+alias gb='git branch'
+alias gba='git branch -a'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+alias gcot='git checkout -t'
+alias gcotb='git checkout --track -b'
+alias glog='git log'
+alias gl='git log -3'
+alias gr='git reset --hard head'
+
+function gacp() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+
+alias vip='vim ~/.profile'
+alias sp='source ~/.profile'
+alias cc='cd ~/code/'
+alias cb='cd ~/code/beck'
+
