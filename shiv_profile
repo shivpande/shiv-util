@@ -23,6 +23,9 @@ alias gcotb='git checkout --track -b'
 alias glog='git log'
 alias gl='git log -3'
 alias gr='git reset --hard head'
+alias gsa='git stash apply'
+alias gsl='git stash list'
+
 
 function gacp() {
     git add .
@@ -31,7 +34,8 @@ function gacp() {
 }
 
 alias vip='vim ~/.profile'
+alias visp='vim ~/code/shiv-util/shiv_profile'
 alias sp='source ~/.profile'
 alias cc='cd ~/code/'
 alias cb='cd ~/code/beck'
-
+alias csu='cd ~/code/shiv-util'
