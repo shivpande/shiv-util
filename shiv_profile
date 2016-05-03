@@ -35,3 +35,5 @@ alias sp='source ~/.profile'
 alias cc='cd ~/code/'
 alias cb='cd ~/code/beck'
 
+alias pyhton="python"
+
