@@ -25,7 +25,7 @@ alias gl='git log -3'
 alias gr='git reset --hard head'
 alias gsa='git stash apply'
 alias gsl='git stash list'
-
+alias gsp='git stash pop'
 
 function gacp() {
     git add .
