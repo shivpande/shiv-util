@@ -9,7 +9,10 @@ alias gs='git status'
 alias gst='gs'
 alias gu='git pull'
 alias gpl='git pull'
-alias gp='git push'
+alias gpull='git pull'
+alias gps='git push'
+alias gph='git push'
+alias gpush='git push'
 alias gdf='git diff'
 alias gd='git diff'
 alias gc='git commit $1' 
@@ -28,6 +31,14 @@ function gacp() {
     git add .
     git commit -a -m "$1"
     git push
+}
+
+function gcp() {
+    git cherry-pick $1
+}
+
+function gc() {
+    git checkout $1
 }
 
 alias vip='vim ~/.profile'
