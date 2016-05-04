@@ -40,5 +40,6 @@ alias cc='cd ~/code/'
 alias cb='cd ~/code/beck'
 alias csu='cd ~/code/shiv-util'
 
-alias pyhton="python"
-
+function pyhton() {
+    python "$@"
+}
