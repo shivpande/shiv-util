@@ -11,11 +11,11 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.Dark2</string>
+	<string>com.apple.ScriptEditor.id.openconnect</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Dark2</string>
+	<string>openconnect</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -42,9 +42,9 @@
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>421</real>
+		<real>728</real>
 		<key>savedFrame</key>
-		<string>20 340 700 672 0 0 1680 1027 </string>
+		<string>389 48 1142 979 0 0 1680 1027 </string>
 		<key>selectedTab</key>
 		<string>description</string>
 	</dict>
