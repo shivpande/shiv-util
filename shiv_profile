@@ -49,9 +49,10 @@ alias vip='vim ~/.profile'
 alias visp='vim ~/code/shiv-util/shiv_profile'
 alias sp='source ~/.profile'
 alias cc='cd ~/code/'
-alias cb='cd ~/code/beck'
+alias cb='cd ~/code/b*'
 alias cdb='cb'
-alias csu='cd ~/code/shiv-util'
+alias cdsu='cd ~/code/shiv-util'
+alias cdsp='cd ~/code/shiv-docs/'
 
 function pyhton() {
     python "$@"
