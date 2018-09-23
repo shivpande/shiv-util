@@ -1,9 +1,16 @@
 export PS1="\n\[\033[0;94m\]\t:\w/ >> \[\033[0m\]"
 
-
+alias sshdev="ssh devvm418.ftw1.facebook.com"
+alias moshdev="mosh -6 devvm418.ftw1.facebook.com"
+alias mmux="mosh devvm418.ftw1.facebook.com -- tmux a"
 alias spacer="defaults write com.apple.dock persistent-apps -array-add '{tile-data={}; tile-type="spacer-tile";}';killall Dock;"
 alias qfinder="defaults write com.apple.finder QuitMenuItem -bool yes; killall Finder;"
 alias showhidden="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder"
+alias wattage="system_profiler SPPowerDataType | grep Wattage"
+alias watt="wattage"
+alias watts="wattage"
+alias power="wattage"
+alias dam="~/code/shiv-util/delete_all_messages.sh"
 
 alias ga='git add .'
 alias gs='git status'
