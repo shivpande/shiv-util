@@ -21,6 +21,8 @@ alias gpull='git pull'
 alias gps='git push'
 alias gph='git push'
 alias gpush='git push'
+alias gdt='printf "\033c" && git diff --color=always | tee'
+alias gcl='clear'
 alias gdf='git diff'
 alias gd='git diff'
 alias gc='git commit $1' 
@@ -64,4 +66,8 @@ alias cdsp='cd ~/code/shiv-docs/'
 
 function pyhton() {
     python "$@"
+}
+
+function h() {
+    history | grep "$@"
 }
