@@ -63,6 +63,9 @@ alias cb='cd ~/code/b*'
 alias cdb='cb'
 alias cdsu='cd ~/code/shiv-util'
 alias cdsp='cd ~/code/shiv-docs/'
+alias cdd='cd /Users/shiv/code/deezer/'
+alias dz='./dz'
+alias yt='youtube-dl'
 
 function pyhton() {
     python "$@"
