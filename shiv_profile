@@ -10,7 +10,6 @@ alias wattage="system_profiler SPPowerDataType | grep Wattage"
 alias watt="wattage"
 alias watts="wattage"
 alias power="wattage"
-alias dam="~/code/shiv-util/delete_all_messages.sh"
 
 alias ga='git add .'
 alias gs='git status'
@@ -64,6 +63,7 @@ alias cdb='cb'
 alias cdsu='cd ~/code/shiv-util'
 alias cdsp='cd ~/code/shiv-docs/'
 alias cdd='cd /Users/shiv/code/deezer/'
+alias cdfd='cd /Users/shiv/code/Fally\ Dots/'
 alias dz='./dz'
 alias yt='youtube-dl'
 
