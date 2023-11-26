@@ -61,8 +61,8 @@ alias sp='source ~/.profile'
 alias cc='cd ~/code/'
 alias cdsu='cd ~/code/shiv-util'
 alias cdfd='cd ~/code/fally-dots'
-alias yt='youtube-dl'
-alias ytp='yt-dlp'
+alias yt='yt-dlp'
+alias ytx='yt-dlp $1 --extract-audio --audio-format mp3'
 
 function pyhton() {
     python "$@"
